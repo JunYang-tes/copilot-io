@@ -1,6 +1,6 @@
 {
   "name": "copilot-io",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "description": "copilot-io",
   "license": "MIT",
   "repository": "",
@@ -9,8 +9,11 @@
     ""
   ],
   "files": [
-    "lib"
+    "lib",
+    "screenshot",
+    "copilot-javafx.jar"
   ],
+  "bin": "lib/index.js",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -22,15 +25,17 @@
     "build": "tsc --pretty",
     "test": "npm run clean && tsc -p tsconfig.test.json --pretty && nyc --exclude \"**/*-spec.js\" ava \"**/*-spec.js\" --verbose",
     "coverage": "nyc report --reporter=lcov --reporter=text --reporter=html",
+    "server": "node lib/index.js",
     "watch": "npm run build -- --watch",
     "watch:test": "npm run test -- --watch"
   },
   "dependencies": {
     "@types/socket.io": "^1.4.29",
-    "b-logger": "^0.0.6",
+    "b-logger": "^0.0.13",
     "cli-argparser": "^0.0.12",
-    "copilot-core": "^0.0.10",
-    "socket.io": "^2.0.3"
+    "copilot-core": "^0.0.25",
+    "socket.io": "^2.0.3",
+    "sqlite3": "^3.1.8"
   },
   "devDependencies": {
     "@types/node": "^7.0.0",

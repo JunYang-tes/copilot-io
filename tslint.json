@@ -1,6 +1,30 @@
 {
-  "extends": [
-    "tslint:latest",
-    "tslint-config-prettier"
-  ]
+  "extends": "tslint:latest",
+  "rules": {
+    "semicolon": [
+      "never"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "no-empty": false,
+    "curly": false,
+    "prefer-const": false,
+    "trailing-comma": [
+      false
+    ],
+    "comment-format": [
+      false
+    ],
+    "align": [
+      "statements"
+    ],
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [
+      false
+    ],
+    "arrow-parens": false,
+    "no-bitwise": false,
+    "no-var-requires": false
+  }
 }
