@@ -38,7 +38,7 @@ function runJar() {
   debug("run javafx");
   let jar = spawn("java", [
     "-jar",
-    resolve(`$ ){__dirname}/../copilot-javafx.jar`),
+    resolve(`${__dirname}/../copilot-javafx.jar`),
     "--url",
     "http://localhost:" + opts.port
   ]);

@@ -1,13 +1,19 @@
 {
   "name": "copilot-io",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "description": "copilot-io",
   "license": "MIT",
-  "repository": "",
   "author": "",
   "keywords": [
-    ""
+    "Alfred like",
+    "Mutate",
+    "laucher",
+    "utility tools"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OuyangQianba/copilot-io"
+  },
   "files": [
     "lib",
     "screenshot",
@@ -33,7 +39,7 @@
     "@types/socket.io": "^1.4.29",
     "b-logger": "^0.0.13",
     "cli-argparser": "^0.0.12",
-    "copilot-core": "^0.0.25",
+    "copilot-core": "^0.0.32",
     "socket.io": "^2.0.3",
     "sqlite3": "^3.1.8"
   },

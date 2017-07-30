@@ -347,6 +347,15 @@ b-logger@^0.0.13:
     log4js "^1.1.1"
     moment "^2.18.1"
 
+b-logger@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/b-logger/-/b-logger-0.0.14.tgz#8824cd1bfbd8ffbc5b3e07cb60d0dca4df8f1c78"
+  dependencies:
+    ansi-styles "^3.1.0"
+    lib "^3.0.1"
+    log4js "^1.1.1"
+    moment "^2.18.1"
+
 babel-code-frame@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.22.0.tgz#027620bee567a88c32561574e7fd0801d33118e4"
@@ -1051,14 +1060,14 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
-copilot-core@^0.0.25:
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/copilot-core/-/copilot-core-0.0.25.tgz#a8556ae830273218690a351fa54c1867c0425228"
+copilot-core@^0.0.32:
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/copilot-core/-/copilot-core-0.0.32.tgz#8764c23c42f3f36afc148953ef133bbcdc2f97e7"
   dependencies:
     "@types/socket.io" "^1.4.29"
     "@types/sqlite3" "^3.1.0"
     array-asyncify "^0.0.7"
-    b-logger "^0.0.13"
+    b-logger "^0.0.14"
     cli-argparser "^0.0.12"
     clipboardy "^1.1.4"
     debug "^2.6.8"
