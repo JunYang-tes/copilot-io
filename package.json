@@ -39,7 +39,7 @@
     "@types/socket.io": "^1.4.29",
     "b-logger": "^0.0.13",
     "cli-argparser": "^0.0.12",
-    "copilot-core": "^0.0.32",
+    "copilot-core": "^0.0.33",
     "socket.io": "^2.0.3",
     "sqlite3": "^3.1.8"
   },

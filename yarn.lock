@@ -1060,9 +1060,9 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
-copilot-core@^0.0.32:
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/copilot-core/-/copilot-core-0.0.32.tgz#8764c23c42f3f36afc148953ef133bbcdc2f97e7"
+copilot-core@^0.0.33:
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/copilot-core/-/copilot-core-0.0.33.tgz#f36bf153b8b3c077887c31e92cb586d12dbf77c8"
   dependencies:
     "@types/socket.io" "^1.4.29"
     "@types/sqlite3" "^3.1.0"
