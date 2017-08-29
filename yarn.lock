@@ -1060,9 +1060,9 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
-copilot-core@^0.0.33:
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/copilot-core/-/copilot-core-0.0.33.tgz#f36bf153b8b3c077887c31e92cb586d12dbf77c8"
+copilot-core@^0.0.36:
+  version "0.0.36"
+  resolved "https://registry.npmjs.org/copilot-core/-/copilot-core-0.0.36.tgz#089d0eabf9649aec435832df7f4ab8b145fd5427"
   dependencies:
     "@types/socket.io" "^1.4.29"
     "@types/sqlite3" "^3.1.0"
@@ -1073,6 +1073,7 @@ copilot-core@^0.0.33:
     debug "^2.6.8"
     deepmerge "^1.5.0"
     fuse.js "^3.0.5"
+    fuzzy "^0.1.3"
     ini "^1.3.4"
     js-yaml "^3.8.4"
     lru-cache "^4.1.1"
@@ -1602,6 +1603,10 @@ function-name-support@^0.2.0:
 fuse.js@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.0.5.tgz#b58d85878802321de94461654947b93af1086727"
+
+fuzzy@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/fuzzy/-/fuzzy-0.1.3.tgz#4c76ec2ff0ac1a36a9dccf9a00df8623078d4ed8"
 
 gauge@~2.7.3:
   version "2.7.4"
